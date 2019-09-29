@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\tokens">
+      <UniqueIdentifier>{52037f40-4a22-44bc-8ccd-c7f8a0aeeb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClientCore">
+      <UniqueIdentifier>{800e0c5f-92e0-4e24-92a0-7d4df68839ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ConsoleClient">
+      <UniqueIdentifier>{99f3721f-968d-4ac7-a11b-e05e4c29f476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hashlib2plus">
+      <UniqueIdentifier>{dd074d81-40a8-40f1-baab-0357b1090ff2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientCore\ClientCore.cpp">
+      <Filter>Source Files\ClientCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleClient\ConsoleClient.cpp">
+      <Filter>Source Files\ConsoleClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hashlib2plus\hl_md5.cpp">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hashlib2plus\hl_md5wrapper.cpp">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hashlib2plus\hl_sha1.cpp">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hashlib2plus\hl_sha1wrapper.cpp">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hashlib2plus\hl_sha2ext.cpp">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hashlib2plus\hl_sha256.cpp">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hashlib2plus\hl_sha256wrapper.cpp">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hashlib2plus\hl_sha384wrapper.cpp">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hashlib2plus\hl_sha512wrapper.cpp">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hashlib2plus\hl_wrapperfactory.cpp">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientCore\ClientCore.hpp">
+      <Filter>Source Files\ClientCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleClient\ConsoleClient.hpp">
+      <Filter>Source Files\ConsoleClient</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturningCodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hashlibpp.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_exception.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_hashwrapper.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_md5.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_md5wrapper.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_sha1.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_sha1wrapper.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_sha2ext.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_sha2mac.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_sha256.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_sha256wrapper.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_sha384wrapper.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_sha512wrapper.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_types.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hashlib2plus\hl_wrapperfactory.h">
+      <Filter>Source Files\hashlib2plus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tokens\ClientToken">
+      <Filter>Resource Files\tokens</Filter>
+    </None>
+    <None Include="tokens\ServerToken">
+      <Filter>Resource Files\tokens</Filter>
+    </None>
+  </ItemGroup>
+</Project>
